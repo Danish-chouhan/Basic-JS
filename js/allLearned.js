@@ -417,4 +417,28 @@ function check(arr,num){
 //   }
 //   const sablele = bap()
 //   console.log(sablele(30))
-  
+
+// -----------------------------------------------
+
+// let a = 10
+// // explicit-coersion
+// console.log(typeof String(a));
+// console.log(typeof (a+"")); // string
+// console.log(Boolean(a));
+// console.log(Boolean(null));
+// let b =[0,0,0,0] // this will always come in truthy list
+// console.log(Boolean(b));
+
+// -----------------------------------------------HOSTING
+
+// console.log(a);
+var a = "Danish"
+
+// console.log(b);
+let b = "Danish"
+
+// console.log(c);
+const c = "Danish"
+
+// -----------------------------------------------
+
