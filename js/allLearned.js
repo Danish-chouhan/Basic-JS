@@ -126,4 +126,95 @@ function mulFn() {
   
   // -----------------------------------------------
   
-  
+  // let a = {
+//   name: "shanwaz",
+// };
+
+// let b = {
+//   name: "Danish",
+// };
+
+// console.log(a.name == b.name);  // false
+// console.log(a === b); // false   // there are two type of object one is (a) and second is (b) this is the reason they are giving us false
+
+// -----------------------------------------------
+
+// var x = 40;
+// console.log(x);  // 40
+// x++; // 40
+// console.log(x); // 41
+// ++x; // 42
+// console.log(x); // 42   // read understand your code.of kyleSimpson
+
+// -----------------------------------------------
+
+// x = "40";
+// y = x + 1; // "401"
+// console.log(y); //"401"
+// y = x - 1; // 39
+// console.log(y); //39
+
+// -----------------------------------------------
+
+// var obj1 = { 
+//     name : 'kyle'
+// }
+
+// var obj = obj1
+
+// console.log(obj == obj1) // we given refference obj1 to obj this is the reason why we getting (true).
+
+// -----------------------------------------------
+
+// const arr1 = [1,2,3];
+// const arr2 = arr1;
+// console.log(arr1); // [1,2,3]
+// console.log(arr2); // [1,2,3]
+
+// arr2.push(4); 
+// console.log(arr1) // [1,2,3,4]
+// console.log(arr2); // [1,2,3,4]
+
+// -----------------------------------------------
+
+// let num = 2;
+// // console.log(2 * ++num)  // 6
+// console.log("\n")
+// console.log(2 * num++)  // 4 
+
+// -----------------------------------------------
+
+// console.log(undefined > 0) // false
+// console.log(undefined < 0) // false
+// console.log(undefined >= 0) // false
+// console.log(Object.is(undefined,0)) // false
+
+// -----------------------------------------------
+
+// console.log(null > 0) // false
+// console.log(null < 0) // false
+// console.log(null >= 0) // true
+// console.log(null == undefined) // becuse of emptiness
+
+// -----------------------------------------------PROTOTYPE
+
+// function eachElement(callback) {
+//     this.name = callback;
+// }
+
+// eachElement.prototype.getName = function () {
+//     return this.name
+// }
+// const obj3 = new eachElement('Kyle');
+// console.log(obj3);
+
+// -----------------------------------------------
+
+// function danish(){
+//     for(var a = 0; a < this.length;a++){
+//         console.log(this[a])
+//     }
+// }
+// Array.prototype.danish = danish
+
+// -----------------------------------------------
