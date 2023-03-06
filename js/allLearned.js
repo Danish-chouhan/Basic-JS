@@ -68,6 +68,7 @@ function dividesEvenly(a,b) {
 // console.log(dividesEvenly(98,7))
 // console.log(dividesEvenly(85,4))
 
+
 // -----------------------------------------------
 
 // function fn1() {
@@ -109,9 +110,9 @@ function mulFn() {
   var mul = mulFn();
   // console.log(mul); // function anonymous
   // console.log(mul(13)); 
-
-// -----------------------------------------------
-
+  
+  // -----------------------------------------------
+  
   function fn1(){
     const name = 'Danish chouhan'
     function fn2(){
@@ -119,8 +120,10 @@ function mulFn() {
     }
     return fn2;
   }
-
+  
   var all = fn1()
-// console.log(all())
-
-// -----------------------------------------------
+  // console.log(all())
+  
+  // -----------------------------------------------
+  
+  
