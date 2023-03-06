@@ -292,3 +292,129 @@ function check(arr,num){
 // console.log(check([], 5))
 
 // -----------------------------------------------
+
+// console.log(3 > 2 > 1); //false
+
+// -----------------------------------------------
+
+// function fn(){}
+// console.log(typeof fn)
+
+// -----------------------------------------------
+
+// var x;
+// console.log(x);
+// console.log(x); // this will show undefined becouse of hosting only acces variable not variable value
+// var x = 5; //hosting
+
+// -----------------------------------------------
+
+// let x = [];
+// let y = x;
+// let z = [];
+// console.log(x == y); // true
+// console.log(x == z); // false
+// console.log(y == z); // false
+// x.push(5);
+// console.log(x); // [5] 
+// console.log(y); // [5]
+// console.log(z); // []
+
+// -----------------------------------------------
+
+// const str = 'a'
+// console.log(Number(str))
+
+// -----------------------------------------------
+
+// console.log([] == true)
+
+// -----------------------------------------------
+
+// console.log(null == undefined); // true
+// console.log(null === undefined); // false  // sense of emptyness
+// var a;
+// var b = null
+// console.log(a == b);
+// console.log(b);
+
+// -----------------------------------------------
+
+// console.log(15 == [15]); // true
+
+// -----------------------------------------------
+
+// console.log(try2); // undefined
+// let try2 = 10  // let and const never host himself
+
+// -----------------------------------------------
+
+// let x = 0;
+// console.log(null == x); // true
+
+// -----------------------------------------------
+
+// console.log(null >= 0) // true
+
+// -----------------------------------------------
+
+// function danish(name){
+//     var b = []
+//    for(let a = 0; a < this.length ; a++){
+//     console.log(this[a])
+//    }
+// }
+// Array.prototype.asalme = danish
+
+// -----------------------------------------------Closer
+
+// function parent() {
+//     var num = 9;
+//     return function child(val) {
+//       num *= val;
+//       return num
+//     }
+//   }
+//   const storeVal = parent();
+//   console.log(storeVal(10))
+
+  
+// -----------------------------------------------prototype
+
+
+// we can make manually methods in prototype like map,reduce,filter etc.
+// easy
+
+  // function fn(name) {
+  //   this.stuName = name
+  // }
+  // fn.prototype.getName = function () {
+  //   return this.stuName;
+  // }
+  // const storeVal2 = new fn('fayaz')
+  // console.log(storeVal2)
+
+//   function myForEach(callback) {
+//     let newArr = []
+//     for(let i = 0; i <this.length ; i++){
+//       newArr.push(callback(this[i]))
+//     }
+//   }
+  
+//   Array.prototype.myMap = myForEach;
+  
+//   const arr = [1,2,3]
+//   arr.forEach(e => console.log(e))
+  
+// -----------------------------------------------closer
+
+//   function bap(){
+//       var no = 10;
+//       return function beta(para1){
+//         no *= para1
+//         return no
+//       }
+//   }
+//   const sablele = bap()
+//   console.log(sablele(30))
+  
