@@ -33,14 +33,14 @@
 // console.log(obj)
 
 // ---------------------------------------------
-function Car(make , model , year , owner){
-  this.make = make;
-  this.model = model;
-  this.year = year;
-  this.owner = owner;
-}
-var obj2 = new Car("Lamborgini" , "model 2020",2022 ,"DIF")
-console.log(obj2)
+// function Car(make , model , year , owner){
+//   this.make = make;
+//   this.model = model;
+//   this.year = year;
+//   this.owner = owner;
+// }
+// var obj2 = new Car("Lamborgini" , "model 2020",2022 ,"DIF")
+// console.log(obj2)
 
 // -------------------------------------------------------
 
