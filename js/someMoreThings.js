@@ -41,12 +41,12 @@
 // }
 
 
-const aa = {
-    // bb : 'Danish',
-    name :function(){
-        console.log(this.bb)
-    }
-}
+// const aa = {
+//     // bb : 'Danish',
+//     name :function(){
+//         console.log(this.bb)
+//     }
+// }
 
 
 // aa.name()
@@ -135,12 +135,12 @@ const aa = {
 // }
 // fn()
 
-var name = 'Danish'
-const a = {
-    name : 'Danish',
-    lname : 'Chouhan',
-    fullName : function(){
-        console.log(`${this.name} , ${this.lname}`)
-    }
-}
-a.fullName()
+// var name = 'Danish'
+// const a = {
+//     name : 'Danish',
+//     lname : 'Chouhan',
+//     fullName : function(){
+//         console.log(`${this.name} , ${this.lname}`)
+//     }
+// }
+// a.fullName()
