@@ -276,3 +276,7 @@
 
 // obj.fn1();
 // obj.fn2();
+
+// export function fn(a,b){
+//     return a + b
+// }
