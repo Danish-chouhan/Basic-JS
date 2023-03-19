@@ -849,3 +849,18 @@
 // -----------------------------------------------
 // -----------------------------------------------
 // -----------------------------------------------
+// const a = Symbol('hello');
+// const b = a;
+
+// const a = Symbol('hello');
+// const b = Symbol('hello');
+// a === b;
+//  console.log(a === b);
+
+//  function fn(){
+//     return 
+// }
+// console.log(Boolean(fn));//false
+
+
+console.log(0 = null)
