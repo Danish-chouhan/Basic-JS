@@ -144,3 +144,11 @@
 //     }
 // }
 // a.fullName()
+
+function isAbleTODrive(age){
+    return age >= 18;
+}
+console.log(isAbleTODrive(19));
+console.log(isAbleTODrive(21));
+console.log(isAbleTODrive(14));
+console.log(isAbleTODrive(NaN));
